@@ -1,0 +1,149 @@
+.body {
+    background-color: #333;
+}
+
+.img {
+    background-image: linear-gradient(#34D5FF, #A7FEB2);
+    padding: 20px 30px;
+}
+
+.img img {
+    height: 100px;
+}
+
+.img {
+    color: #fff;
+    font-size: 16px;
+    font-family: varela round !important;
+}
+
+.img h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img p {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #119DBE;
+    font-weight: 600;
+}
+
+.shoe {
+    height: 400px !important;
+    width: 100%;
+    transform: rotateY(180deg) rotateZ(5deg);
+}
+
+.dollar {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.content h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4B4B4B;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.content .fas {
+    float: right;
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.new {
+    background-color: #FC4A1A;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+
+.content p {
+    clear: both;
+    color: #ccc;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+ul li {
+    font-size: 14px;
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+ul li a {
+    text-align: center;
+    color: #ccc;
+    font-weight: 700;
+    position: relative;
+    transition: .5s all;
+}
+
+a:hover:after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: #038BB1;
+    transition: .5s all;
+}
+
+
+a:after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: #038BB1;
+    transition: .5s all;
+}
+
+
+
+ul li a:hover {
+    transition: .5s all;
+    color: #038BB1;
+    font-weight: 700;
+}
+
+.active:after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: #038BB1;
+    transition: .5s all;
+}
+
+
+
+ul li .active {
+    transition: .5s all;
+    color: #038BB1;
+    font-weight: 700;
+}
