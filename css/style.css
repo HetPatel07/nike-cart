@@ -1,5 +1,6 @@
 .body {
     background-color: #333;
+    font-family: Varela Round !important;
 }
 
 .img {
@@ -14,7 +15,7 @@
 .img {
     color: #fff;
     font-size: 16px;
-    font-family: varela round !important;
+    font-family: Varela Round !important;
 }
 
 .img h2 {
@@ -47,6 +48,7 @@
 
 .content {
     background-color: #fff;
+    padding: 50px 50px;
 }
 
 .content h2 {
@@ -85,9 +87,9 @@
 
 ul li {
     font-size: 14px;
-    float: left;
+    display: inline-block;
     list-style: none;
-    padding: 10px;
+    padding-right: 10px;
 }
 
 ul li a {
@@ -129,7 +131,7 @@ ul li a:hover {
     font-weight: 700;
 }
 
-.active:after {
+.activei:after {
     content: '';
     position: absolute;
     bottom: -7px;
@@ -140,10 +142,197 @@ ul li a:hover {
     transition: .5s all;
 }
 
+.last {
+    height: 16px;
+}
 
+.des {
+    clear: both;
+    padding: 50px 0;
+}
 
-ul li .active {
+.star {
+    clear: both;
+}
+
+.star li .fas {
+    color: #FC4A1A;
+    font-size: 16px;
+    /*    background-color: red;*/
+}
+
+.star .last {
+    color: #ccc !important;
+    font-size: 16px !important;
+    /*    background-color: red;*/
+}
+
+ul li .activei {
     transition: .5s all;
     color: #038BB1;
     font-weight: 700;
+}
+
+.nikeContent {
+    font-size: 22px;
+    font-weight: 100;
+    color: mintgrey !important;
+}
+
+.color h2,
+.size h2,
+.qty h2 {
+    font-size: 14px;
+    color: grey;
+}
+
+.colorul {
+    clear: both;
+    padding: 0;
+}
+
+.itemMain {
+    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: .2s all;
+}
+
+.greenmain {
+    border: 1px solid limegreen;
+}
+
+.item {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.colorli {
+    padding: 0;
+}
+
+.green1 {
+    background-color: limegreen;
+    opacity: .5;
+}
+
+.blue1 {
+    background-color: #3FD8F7;
+    opacity: .7;
+}
+
+.grey1 {
+    background-color: lightgrey;
+}
+
+.orange1 {
+    background-color: orange;
+    opacity: .5;
+}
+
+.itemMain:hover {
+    border: 1px solid limegreen;
+    transition: .2s all;
+}
+
+.blueMain:hover {
+    border: 1px solid #3FD8F7 !important;
+    transition: .2s all;
+}
+
+.greyMain:hover {
+    border: 1px solid lightgrey !important;
+    transition: .2s all;
+}
+
+.orangeMain:hover {
+    border: 1px solid orange !important;
+    transition: .2s all;
+}
+
+.size {
+    margin-top: 30px;
+}
+
+.sizeul {
+    clear: both;
+    overflow: auto;
+}
+
+.sizeli {
+    font-size: 17px;
+    color: grey;
+    font-weight: 700;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    transition: .2s all;
+    border-radius: 50%;
+}
+
+
+.sizeli:hover {
+    color: #fff;
+    transition: .2s all;
+    border-radius: 50%;
+    background-color: #3FD8F7;
+}
+
+.active2 {
+    color: #fff;
+    transition: .2s all;
+    border-radius: 50%;
+    background-color: #3FD8F7;
+}
+
+.dropdown {
+    clear: both;
+}
+
+.btn-primary.dropdown-toggle {
+    text-align: left !important;
+    background-color: #f9f9f9 !important;
+    box-shadow: none;
+    color: grey;
+    font-size: 18px;
+
+}
+
+.btn {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.btn-primary.dropdown-toggle:focus, .btn-primary.dropdown-toggle:hover{
+    background-color: grey !important;
+    color: #fff;
+}
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    background-color: grey !important;
+}
+.dropdown-toggle::after {
+    border: 0 !important;
+}
+
+.fa-shopping-cart,.fa-heart{
+    color: #fff !important;
+    font-size: 16px !important;
+}
+.btn.btn-link,.btn.peach-gradient{
+    padding: 15px 0 15px 15px !important;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: lightgrey !important;
+    color: #fff !important;
+    font-size: 16px; 
+    font-weight: 700;
+    width: 200px !important;
 }
